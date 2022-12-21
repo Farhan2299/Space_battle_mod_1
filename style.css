@@ -1,0 +1,9 @@
+#header_top {
+    text-align: center;
+    color: yellow;
+}
+body {
+    background-image: url("Images/setting/asteroid_field.PNG");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
