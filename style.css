@@ -7,3 +7,26 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+
+#uss_blinky {
+    position: fixed;
+}
+
+#uss_blinky_health {
+    color: white;
+    margin-left: 50px;
+}
+
+#enemy_ship {
+    position: fixed;
+    right: 100px;
+}
+
+#enemy_ship_health {
+    color: white;
+    margin-right: 100px;
+}
+
+#enemy_ship_dead {
+    visibility: hidden;
+}

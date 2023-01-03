@@ -13,11 +13,25 @@
     <h2>Hold Off The Invaders!</h2>
     </div>
     <div id="ships">
-        <img id="uss_blinky" src="images/Ships/USS_Blinky.png">
-        <img id="enemy_ship" src="images/Ships/enemy_ship.png">
-        <img id="enemy_ship_dead" src="images/Ships/enemy_ship_dead.png">
+        <div id="uss_blinky">
+        <p id="uss_blinky_health">Hull = 300</p>
+        <img src="images/Ships/USS_Blinky.png" id="uss_blinky">
+        </div>
+        <div id="enemy_ship">
+        <p id="enemy_ship_health">Hull = 200</p>
+        <img src="images/Ships/enemy_ship.png" id="enemy_ship">
+        </div>
+        <img id="enemy_ship_dead" src="images/Ships/enemy_ship_dead.png" id="enemy_ship_dead">
     </div>
 
     <script src="game.js"></script>
 </body>
 </html>
+
+<!-- 
+    -add animation for shooting a rocket for attack or evade animation, 
+    -maybe try sounds?
+    -^sound for every event like a laser being shot or evade sound affect
+    or a spaceship exploding sound affect or a earth exploding for a
+    loss ending sound affect
+-->
