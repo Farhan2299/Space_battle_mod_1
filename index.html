@@ -4,27 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Space_Battle_Mod</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="tabicon.PNG">
+    <title>Space Battle!</title>
 </head>
-<body>
+<body class="Index">
     <div id="header_top">
     <h1>Earth Is Being Attacked!</h1>
     <h2>Hold Off The Invaders!</h2>
     </div>
     <div id="ships">
         <div id="uss_blinky">
-        <p id="uss_blinky_health">Hull = 300</p>
-        <img src="images/Ships/USS_Blinky.png" id="uss_blinky">
+        <p id="uss_blinky_hull">Hull = 20</p>
+        <img src="images/Ships/USS_Blinky.png" id="uss_blinky_img">
+        <img src="images/vfx/explosion1.gif" id="explosion1_img">
         </div>
         <div id="enemy_ship">
-        <p id="enemy_ship_health">Hull = 200</p>
+        <p id="enemy_ship_hull">Hull = 10</p>
         <img src="images/Ships/enemy_ship.png" id="enemy_ship">
         </div>
         <img id="enemy_ship_dead" src="images/Ships/enemy_ship_dead.png" id="enemy_ship_dead">
     </div>
+    <div class="Battle">
+         <div id="attack">
+            <button type="button" onclick ="attack()" id="attack_button">Attack!</button>
+        </div>
+        <div id="concede">
+            <button type="button" onclick="concede_button1()" id="concede_button">Concede</button>
+        </div>
+        <div class="earth_destroyed">
+            <img src="images/setting/earth-destroyed.jpg" id="earth_destroyed_img">
+        </div>
+    </div>
 
+
+
+
+<!-- scripts -->
     <script src="game.js"></script>
+    <script src="battle_script/battle.js"></script>
+    <script src="ships.js"></script>
 </body>
 </html>
 

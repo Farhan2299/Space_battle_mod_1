@@ -12,7 +12,7 @@ body {
     position: fixed;
 }
 
-#uss_blinky_health {
+#uss_blinky_hull {
     color: white;
     margin-left: 50px;
 }
@@ -22,11 +22,72 @@ body {
     right: 100px;
 }
 
-#enemy_ship_health {
+#enemy_ship_hull {
     color: white;
     margin-right: 100px;
 }
 
 #enemy_ship_dead {
     visibility: hidden;
+}
+
+.Battle {
+    position: relative;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    border: solid;
+    margin: 100px;
+    margin-top: 300px;
+    height: 100px;
+}
+
+#explosion1_img {
+    position: fixed;
+    height: 500px;
+    width: 500px;
+    margin-left: -70px;
+}
+
+#attack {
+    border: dashed;
+    width: 90px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#attack_button {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#concede {
+    border: dashed;
+    width: 100px;
+    height: 40px;
+    margin-left: 650px;
+    margin-top: -45px;
+}
+
+#concede_button {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#explosion1_img {
+    display: none;
+}
+
+#earth_destroyed_img {
+    position: flex;
+    justify-content: center;
+    margin-top: -700px;
+    margin-left: -50px;
+    height: 750px;
+    width: 1400px;
+    display: none;
 }
