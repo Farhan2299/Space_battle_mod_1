@@ -1,7 +1,7 @@
 # Space_battle_mod_1
 Thinking about making different stages in the battle where the
 ending is you either lose and earth gets destroyed, or you win
-and the alien fleed is destoryed
+and the alien fleet is destoryed
 
 -maybe add an animation where the earth is destroyed in keyframes?
 
